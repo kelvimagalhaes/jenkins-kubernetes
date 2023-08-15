@@ -9,7 +9,7 @@ spec:
     - websecure
 
   routes:
-    - match: Host(`jenkins-k8s.campogrande.ms.gov.br`)
+    - match: Host(`jenkins-k8s.com.br`)
       kind: Rule
 
       middlewares:
